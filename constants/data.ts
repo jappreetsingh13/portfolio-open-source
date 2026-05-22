@@ -1,16 +1,32 @@
 export const skills = [
-  "React.js",
-  "Next.js",
-  "TypeScript",
-  "Tailwind CSS",
+  "HTML",
+  "CSS",
+  "React",
+  "Next",
+  "Node",
   "JavaScript",
-  "AEM",
+  "TypeScript",
+  "Express",
+  "Nest",
+  "Jest",
+  "Tailwind CSS",
   "GraphQL",
+  "Rest API",
+  "Cron Jobs",
+  "Strapi",
+  "AEM - Sites",
+  "Shopify",
+  "Adobe Experience Manager",
   "MongoDB",
   "PostgreSQL",
-  "Strapi",
-  "Shopify",
   "TypeORM",
+  "PrismaORM",
+  "Mongoose",
+  "Git",
+  "GitHub",
+  "JIRA",
+  "Core Web Vitals",
+  "Performance Optimization"
 ];
 
 export const projects = [
@@ -39,19 +55,19 @@ export const projects = [
 
 export const stats = [
   {
-    label: 'Years Experience',
-    value: '3+',
+    label: "Years Experience",
+    value: "3+",
   },
   {
-    label: 'Enterprise Projects',
-    value: '10+',
+    label: "Enterprise Projects",
+    value: "10+",
   },
   {
-    label: 'SEO Improvement',
-    value: '20%',
+    label: "SEO Improvement",
+    value: "20%",
   },
   {
-    label: 'Technologies',
-    value: '15+',
+    label: "Technologies",
+    value: "15+",
   },
-]
+];

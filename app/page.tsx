@@ -10,13 +10,13 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden mx-auto lg:max-w-7xl md:max-w-5xl max-w-3/4">
+    <main className="overflow-hidden mx-auto lg:max-w-7xl md:max-w-5xl max-w-11/12">
       <Navbar />
       <Hero />
       <About />
       <Skills />
       <Experience />
-      <Projects />
+      {/* <Projects /> */}
       <Stats />
       <Contact />
       <Footer />

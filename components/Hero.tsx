@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <section className="min-h-screen flex items-center px-6 mt-10">
+    <section className="min-h-screen flex items-center px-2.5 mt-10">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div>
           <motion.p

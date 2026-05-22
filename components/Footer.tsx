@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 function Footer() {
   return (
     <footer className="py-10 border-t border-white/10">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+      <div className="max-w-7xl mx-auto px-2.5 flex flex-col md:flex-row justify-between items-center gap-6">
         <div>
           <h3 className="text-2xl font-bold text-violet-400">Jappreet Singh</h3>
 
@@ -12,7 +12,7 @@ function Footer() {
 
         <div className="flex gap-5">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/jappreetsingh13"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-violet-400 transition"
@@ -29,7 +29,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/connect-jappreet-singh-arora/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-violet-400 transition"
@@ -84,7 +84,7 @@ function Footer() {
         </div>
       </div>
 
-      <p className="text-center text-gray-500 mt-8 text-sm">
+      <p className="text-center text-slate-700 mt-8 text-sm">
         © 2026 Jappreet Singh. Free and Open Source.
       </p>
     </footer>

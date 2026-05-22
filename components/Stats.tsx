@@ -2,7 +2,7 @@ import { stats } from "@/constants/data";
 
 function Stats() {
   return (
-    <section className="py-24 px-6">
+    <section className="py-24 max-md:py-12  px-2.5">
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-6">
         {stats.map((item) => (
           <div
