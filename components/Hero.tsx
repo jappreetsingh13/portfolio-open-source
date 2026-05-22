@@ -38,16 +38,16 @@ function Hero() {
 
           <div className="mt-10 flex gap-4">
             <a
-              href="#projects"
-              className="px-6 py-3 rounded-xl bg-violet-600 hover:bg-violet-700 transition"
+              href="#contact"
+              className="px-6 py-3 rounded-xl bg-violet-600 hover:bg-violet-700 transition text-center"
             >
-              View Projects
+              Contact Me
             </a>
 
             <a
-              href="/jappreetcv"
+              href="/jappreetcv.pdf"
               download={true}
-              className="px-6 py-3 rounded-xl border border-white/20"
+              className="px-6 py-3 rounded-xl border border-white/20 text-center"
             >
               Download Resume
             </a>
@@ -58,6 +58,7 @@ function Hero() {
           <Image
             src="/profile.jpeg"
             alt="Profile"
+            loading="eager"
             width={400}
             height={400}
             className="rounded-3xl border border-white/10"
